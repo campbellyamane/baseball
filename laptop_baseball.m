@@ -1,6 +1,7 @@
 %Hit(.23), Walk(.01), Out(.75)
 %Single(.664), Double(.196), Triple(.02), HR(.12)
 clear; close all;
+Screen('Preference', 'SkipSyncTests', 1); 
 AssertOpenGL;
 KbName('UnifyKeyNames');
 rng('shuffle');
